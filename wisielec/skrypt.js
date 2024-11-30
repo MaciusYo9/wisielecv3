@@ -67,7 +67,7 @@ function gdykliknie(x){
     else{
         document.getElementById(`l${x}`).classList.add("niepoprawnalitera");
         punkty++;
-        document.getElementById("wisielec").innerHTML=`${punkty}/11 <img src="/wisielec/grafika/${punkty+1}.png"/>`;
+        document.getElementById("wisielec").innerHTML=`${punkty}/11 <img src="${punkty+1}.png"/>`;
         
     }
     //sprawdza czy nie ma juz wygranej
