@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+
+    }
+
+    #slowo{
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 15px;
+
+    }
+
+    #wisielec{
+        width: 40%;
+        height: 600px;
+        margin-left: 5%;
+        float: left;
+        
+        margin-top: 20px;
+    }
+    #alfabet{
+        width: 40%;
+        height: 600px;
+        margin-left: 5%;
+        
+        float: left;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(8,30px);
+        grid-template-rows: repeat(4,30px);
+        grid-gap: 10px;
+        
+
+    }
+
+    .litera{
+        width: 30px;
+        height: 30px;
+        border: 2px solid white;
+        text-align: center;
+        line-height: 30px;
+        display: inline-block;
+        margin: 5px;
+        cursor: pointer;
+        
+        
+
+    }
+    .litera:hover{
+        background-color: darkslategrey;
+        
+    }
+
+    .poprawnalitera{
+        background-color: lightgreen !important;
+        color: black;
+
+    }
+
+    .niepoprawnalitera{
+        background-color: red !important;
+        color: black;
+        
+    }
+    #wisielec{
+        font-size: 100px;
+        font-weight: 700;
+
+    }
+    img{
+        width: 200px;
+        height: 200px;
+
+    }
+
+</style>
+<body>
+    
+    <section id="slowo"></section>
+
+    <section id="wisielec">0/11 <img src="/grafika/1.png"></section>
+
+    <section id="alfabet"></section>
+
+
+    <script src="skrypt.js"></script>
+</body>
+</html>
